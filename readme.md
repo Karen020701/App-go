@@ -14,15 +14,11 @@ If Go is not installed, download it from [https://go.dev/dl/](https://go.dev/dl/
 
 Navigate to a preferred folder and clone the project with the following command:
 
-\`\`\`bash  
-git clone https://github.com/Karen020701/App-go.git  
-\`\`\`
+`  git clone https://github.com/Karen020701/App-go.git  `
 
 To run the project locally, navigate to the project folder and execute:
 
-\`\`\`bash  
-go run aplicationgo.go  
-\`\`\`
+` go run aplicationgo.go  `
 
 Then, in your browser, go to [http://localhost:8080](http://localhost:8080). You should see the message: **"Hello World GO language"**.
 
@@ -32,15 +28,11 @@ To run this project in a Docker container:
 
 1. First, pull the Docker image. In the project directory, download the image with the command:
 
-    \`\`\`bash
-    docker pull karenchicaiza/aplicationgo
-   \`\`\`
+   ` docker pull karenchicaiza/aplicationgo `
 
 3. To start the container, use the command:
 
-    \`\`\`bash
-   docker run -p 8080:8080 karenchicaiza/aplicationgo
-   \`\`\`
+    ` docker run -p 8080:8080 karenchicaiza/aplicationgo`
 
 5. In your browser, go to [http://localhost:8080](http://localhost:8080) and you will see the message: **"Hello World language GO"**.
 
