@@ -1,24 +1,55 @@
-**Hello World” project in GO language**   
+# "Hello World" Project in Go
 
-This is a basic project of a “Hello World” in GO language, we are going to use Docker to create a container of the program and Railway is used to deploy the project in the cloud.  
-It is required to verify the installation of GO on the computer, this is done by opening an end on the computer and running go version, otherwise it can be installed in **https://go.dev/dl/** .
+This is a basic "Hello World" project in the Go programming language. We will use Docker to create a container for the program, and Railway to deploy the project in the cloud.
 
-**Clone the project**  
-Locate in a folder of preference to be able to clone the project with the following command:  
-https://github.com/Karen020701/App-go.git  
-To run the project locally, navigate to the project folder and run the command:  
-go run aplicationgo.go  
-In the browser enter http://localhost:8080 and the message “Hello World GO language” will be displayed.
+## Prerequisites
 
-**Run with Docker**  
-An image is built in Docker. Once inside the directory to download the created image run the command:  
-docker pull karenchicaiza/aplicationgo  
-To run the container the command is used:  
-docker run -p 8080:8080 karenchicaiza/aplicationgo  
-In the browser enter http://localhost:8080 and the message “Hello World language GO” will be displayed.
+Ensure that Go is installed on your computer. To check, open a terminal and run:
 
-**Deployment in Railway**    
-This project was deployed on Railway, the connection to the Railway account and access to the repository on Github was done.   
-Once deployed I generate the link: https://app-go-production.up.railway.app/ 
+\`\`\`bash
+go version
+\`\`\`
+
+If Go is not installed, download it from [https://go.dev/dl/](https://go.dev/dl/).
+
+## Cloning the Project
+
+Navigate to a preferred folder and clone the project with the following command:
+
+\`\`\`bash
+git clone https://github.com/Karen020701/App-go.git
+\`\`\`
+
+To run the project locally, navigate to the project folder and execute:
+
+\`\`\`bash
+go run aplicationgo.go
+\`\`\`
+
+Then, in your browser, go to [http://localhost:8080](http://localhost:8080). You should see the message: **"Hello World GO language"**.
+
+## Running with Docker
+
+To run this project in a Docker container:
+
+1. First, pull the Docker image. In the project directory, download the image with the command:
+
+    \`\`\`bash
+    docker pull karenchicaiza/aplicationgo
+    \`\`\`
+
+2. To start the container, use the command:
+
+    \`\`\`bash
+    docker run -p 8080:8080 karenchicaiza/aplicationgo
+    \`\`\`
+
+3. In your browser, go to [http://localhost:8080](http://localhost:8080) and you will see the message: **"Hello World language GO"**.
+
+## Deployment on Railway
+
+This project has been deployed on Railway. The Railway account was connected, and access to the GitHub repository was configured. Once deployed, the following link was generated:
+
+[https://app-go-production.up.railway.app/](https://app-go-production.up.railway.app/)
 
 ![image](https://github.com/user-attachments/assets/e383460b-4a91-4c58-91c7-17d242ddd075)
