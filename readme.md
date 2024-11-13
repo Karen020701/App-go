@@ -6,8 +6,8 @@ This is a basic "Hello World" project in the Go programming language. We will us
 
 Ensure that Go is installed on your computer. To check, open a terminal and run:
 
-\`\`\`bash
-go version
+\`\`\`bash  
+go version  
 \`\`\`
 
 If Go is not installed, download it from [https://go.dev/dl/](https://go.dev/dl/).
@@ -16,14 +16,14 @@ If Go is not installed, download it from [https://go.dev/dl/](https://go.dev/dl/
 
 Navigate to a preferred folder and clone the project with the following command:
 
-\`\`\`bash
-git clone https://github.com/Karen020701/App-go.git
+\`\`\`bash  
+git clone https://github.com/Karen020701/App-go.git  
 \`\`\`
 
 To run the project locally, navigate to the project folder and execute:
 
-\`\`\`bash
-go run aplicationgo.go
+\`\`\`bash  
+go run aplicationgo.go  
 \`\`\`
 
 Then, in your browser, go to [http://localhost:8080](http://localhost:8080). You should see the message: **"Hello World GO language"**.
@@ -36,15 +36,15 @@ To run this project in a Docker container:
 
     \`\`\`bash
     docker pull karenchicaiza/aplicationgo
-    \`\`\`
+   \`\`\`
 
-2. To start the container, use the command:
+3. To start the container, use the command:
 
     \`\`\`bash
-    docker run -p 8080:8080 karenchicaiza/aplicationgo
-    \`\`\`
+   docker run -p 8080:8080 karenchicaiza/aplicationgo
+   \`\`\`
 
-3. In your browser, go to [http://localhost:8080](http://localhost:8080) and you will see the message: **"Hello World language GO"**.
+5. In your browser, go to [http://localhost:8080](http://localhost:8080) and you will see the message: **"Hello World language GO"**.
 
 ## Deployment on Railway
 
