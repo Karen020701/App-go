@@ -6,7 +6,7 @@ This is a basic "Hello World" project in the Go programming language. We will us
 
 Ensure that Go is installed on your computer. To check, open a terminal and run:
 
-`$ go version `
+` go version `
 
 If Go is not installed, download it from [https://go.dev/dl/](https://go.dev/dl/).
 
